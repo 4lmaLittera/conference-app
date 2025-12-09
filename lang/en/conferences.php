@@ -13,6 +13,7 @@ return [
     'view' => 'View',
     'edit' => 'Edit',
     'delete' => 'Delete',
+    'cancel' => 'Cancel',
     'save' => 'Save',
     'created' => 'Conference successfully created!',
     'updated' => 'Conference successfully updated!',
