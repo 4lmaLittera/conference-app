@@ -1,7 +1,13 @@
 <?php
 
 return [
-    'failed' => 'Šie prisijungimo duomenys neatitinka mūsų įrašų.',
-    'password' => 'Pateiktas slaptažodis neteisingas.',
-    'throttle' => 'Per daug bandymų prisijungti. Bandykite dar kartą po :seconds s.',
+    'failed' => 'Neteisingi prisijungimo duomenys.',
+    'password' => 'Neteisingas slaptažodis.',
+    'throttle' => 'Per daug prisijungimo bandymų. Bandykite dar kartą po :seconds sekundžių.',
+    'login' => 'Prisijungti',
+    'logout' => 'Atsijungti',
+    'email' => 'El. paštas',
+    'remember_me' => 'Prisiminti mane',
+    'login_success' => 'Sėkmingai prisijungėte!',
+    'logout_success' => 'Sėkmingai atsijungėte!',
 ];
