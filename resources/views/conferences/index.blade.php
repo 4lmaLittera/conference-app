@@ -97,7 +97,7 @@
                 confirmButtonColor: '#d33',
                 cancelButtonColor: '#3085d6',
                 confirmButtonText: '{{ __('conferences.delete') }}',
-                cancelButtonText: 'Atšaukti'
+                cancelButtonText: '{{ __('conferences.cancel') }}'
             }).then((result) => {
                 if (result.isConfirmed) {
                     form.submit();

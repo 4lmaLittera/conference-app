@@ -13,6 +13,7 @@ return [
     'view' => 'Peržiūrėti',
     'edit' => 'Redaguoti',
     'delete' => 'Šalinti',
+    'cancel' => 'Atšaukti',
     'save' => 'Išsaugoti',
     'created' => 'Konferencija sėkmingai sukurta!',
     'updated' => 'Konferencija sėkmingai atnaujinta!',
