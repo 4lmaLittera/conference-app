@@ -39,6 +39,9 @@
             @endauth
         </nav>
     </header>
+    <main>
+        <h1 class="text-4xl font-bold dark:text-[#EDEDEC]">Conference App</h1>
+    </main>   
 </body>
 
 </html>
