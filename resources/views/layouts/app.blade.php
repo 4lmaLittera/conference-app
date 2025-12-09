@@ -32,5 +32,21 @@
                 {{ $slot }}
             </main>
         </div>
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const inputs = document.querySelectorAll('input, textarea, select');
+                inputs.forEach(input => {
+                    input.addEventListener('invalid', function (event) {
+                        if (input.validity.valueMissing) {
+                            input.setCustomValidity('{{ app()->getLocale() == 'lt' ? 'Prašome užpildyti šį lauką.' : 'Please fill out this field.' }}');
+                        }
+                    });
+                    input.addEventListener('input', function (event) {
+                        input.setCustomValidity('');
+                    });
+                });
+            });
+        </script>
     </body>
 </html>
