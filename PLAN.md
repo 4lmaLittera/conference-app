@@ -294,6 +294,8 @@ window.deleteConference = function(id) {
 
 ## 🚀 Quick Start Commands
 
+Every command is run in ./vendor/bin/sail
+
 ```bash
 # Setup
 npm install sweetalert2
