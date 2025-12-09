@@ -35,6 +35,38 @@
     --notion-shadow-lg: 0 8px 24px rgba(55, 53, 47, 0.16);
 }
 
+/* Dark Theme */
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Backgrounds */
+        --notion-bg: #191919;
+        --notion-bg-secondary: #1f1f1f;
+        --notion-sidebar-bg: #252525;
+        
+        /* Text Colors */
+        --notion-text-primary: #e9e9e7;
+        --notion-text-secondary: #9b9a97;
+        --notion-text-tertiary: #6f6f6f;
+        
+        /* Borders */
+        --notion-border: #373737;
+        --notion-border-hover: #4f4f4f;
+        
+        /* Accent Colors */
+        --notion-accent: #4c9aff;
+        --notion-accent-hover: #6fb1ff;
+        
+        /* States */
+        --notion-hover: #2f2f2f;
+        --notion-active: #373737;
+        
+        /* Shadows */
+        --notion-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+        --notion-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+        --notion-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+    }
+}
+
 /* Base Styles */
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
