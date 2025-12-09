@@ -16,13 +16,11 @@
             <aside class="w-64 fixed inset-y-0 left-0 flex flex-col" style="background-color: var(--notion-sidebar-bg); border-right: 1px solid var(--notion-border);">
                 <!-- Logo/Brand -->
                 <div class="p-4">
-                    <a href="{{ route('conferences.index') }}" class="flex items-center gap-2 px-3 py-2 rounded-md transition-colors" 
+                    <a href="{{ route('conferences.index') }}" class="flex items-center gap-3 px-3 py-2 rounded-md transition-colors" 
                        style="color: var(--notion-text-primary);"
                        onmouseover="this.style.backgroundColor='var(--notion-bg)'" 
                        onmouseout="this.style.backgroundColor='transparent'">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
-                        </svg>
+                        <img src="{{ asset('logo.png') }}" alt="Logo" class="w-12 h-12 object-cover">
                         <span class="font-semibold">{{ config('app.name', 'Konferencijos') }}</span>
                     </a>
                 </div>
