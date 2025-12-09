@@ -2,7 +2,7 @@
 
 return [
     'failed' => 'Neteisingi prisijungimo duomenys.',
-    'password' => 'Neteisingas slaptažodis.',
+    'password' => 'Slaptažodis',
     'throttle' => 'Per daug prisijungimo bandymų. Bandykite dar kartą po :seconds sekundžių.',
     'login' => 'Prisijungti',
     'logout' => 'Atsijungti',
